@@ -38,7 +38,7 @@ class _HomeScreenState extends State<Home_screen> {
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.map), label: 'Map'),
           BottomNavigationBarItem(icon: Icon(Icons.notifications), label: 'Notifications'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
+          //BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
         ],
       ),
     );
@@ -92,7 +92,7 @@ class HomeContent extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 180),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 40),
               child: Column(
